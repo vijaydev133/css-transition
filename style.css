@@ -1,0 +1,17 @@
+.parent{
+    background-color: yellowgreen;
+    height: 400px;
+    width: 400px;
+}
+
+.child{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.parent:hover .child{
+    transform: translateX(100%);
+    background-color: green;
+}
