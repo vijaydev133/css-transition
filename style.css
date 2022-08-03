@@ -8,10 +8,21 @@
     background-color: red;
     height: 200px;
     width: 200px;
-    
+    transition-property:  transform;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s;
+   
+ 
 }
 
 .parent:hover .child{
     transform: translateX(100%);
-    background-color: green;
+     background-color: green; 
 }
+
+/* transition-property
+transition-duration
+transition-timing-function
+transition-delay
+ transition: transform 1s ease-in  2s ; */
